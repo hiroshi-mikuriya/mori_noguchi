@@ -1,12 +1,8 @@
 #include "led.h"
-#ifdef __APPLE_CC__
 #include <arpa/inet.h>
-#endif  // __APPLE_CC__
 #include <errno.h>
 #include <netinet/in.h>
 #include <string.h>
-#include <sys/socket.h>
-#include <sys/types.h>
 #include <unistd.h>
 #include <array>
 #include <chrono>
